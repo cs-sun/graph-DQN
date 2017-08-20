@@ -92,7 +92,6 @@ int main(int argn, char **argv)
     __head_version = "v1";
     OutputInfo info(argn, argv);
 
-
     Run( argn, argv );
 }
 
