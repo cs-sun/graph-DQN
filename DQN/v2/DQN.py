@@ -64,7 +64,7 @@ class DQN(object):
         _model.compile(optimizer="adam", loss='categorical_crossentropy',metrics=["accuracy"])
         return _model    
     '''
-    def _createModel(self,dd=True): # TODO models
+    def _createModel(self,dd=True): # TOD models
         model = Sequential()
         model.add(Conv1D(self.train_batch//2 , 5,border_mode="valid",input_shape=self.input_size))
         model.add(Flatten())
