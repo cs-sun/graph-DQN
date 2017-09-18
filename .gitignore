@@ -1,3 +1,16 @@
 __pycache__/
 *.weight
 *.pdf
+graphnn/build/
+*.model
+log.txt
+graphnn/build_cpuonly/
+graphnn/.vscode/
+graphnn/html/
+*~
+*.swp
+make_common
+**/mnist/data/
+graphnn/saved*/
+graphnn/debug*
+graphnn/results/
